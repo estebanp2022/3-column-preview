@@ -16,22 +16,22 @@ body {
   flex-direction: row;
 }
 
-section {
+article {
   height: 400px;
   padding: 35px;
 }
 
-.sedans {
+.sedan-card {
   background-color: hsl(31, 77%, 52%);
   border-bottom-left-radius: 8px;
   border-top-left-radius: 8px;
 }
 
-.suvs {
+.suv-card {
   background-color: hsl(184, 100%, 22%);
 }
 
-.luxury {
+.luxury-card {
   background-color: hsl(179, 100%, 13%);
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
@@ -92,7 +92,7 @@ p {
 }
 
 .attribution {
-  margin-top: 15px;
+  margin-top: 50px;
   font-size: 11px;
   text-align: center;
 }
@@ -111,16 +111,16 @@ p {
     width: 320px;
   }
 
-  section {
+  article {
     height: 340px;
     padding: 42px;
   }
-  .sedans {
+  .sedan-card {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 0;
   }
-  .luxury {
+  .luxury-card {
     border-top-right-radius: 0;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
